@@ -1,0 +1,23 @@
+.movieList{
+    padding : 2rem;
+}
+
+.mark{
+    height : 30px;
+    width: 5px;
+    background-color: #FFD700;
+    margin-right: 15px;
+}
+.category{
+  
+    color : #FFD700;
+    display : flex;
+    padding-left : 1.5rem;
+
+}
+
+.movieCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

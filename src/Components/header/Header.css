@@ -1,0 +1,147 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin : 0 2.5rem; */
+    padding: 0.1rem 2.5rem;
+    background-color: #212121;
+    color: white;
+}
+
+
+
+.header-left{
+    display : flex;
+    align-items: center;
+}
+.header-left a{
+    padding: 0 10px;
+    margin : 0 5px;
+    text-decoration: none;
+}
+ .header-left span{
+    font-size : 1.2rem;
+    font-weight : bold;
+    cursor : pointer;
+    color : #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+
+.header-right a{
+    padding: 0 10px;
+    margin : 0 5px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ .header-right span{
+    font-size : 1.2rem;
+    font-weight : bold;
+    cursor : pointer;
+    color : #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+ .count{
+    padding : 3px 5px;
+    color : black;
+    font-size : 1rem;
+    font-weight: bold;
+    background-color: #FFD700 ;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+
+}
+span:hover{
+    background-color : #2b2a2ade;
+    
+}
+.logo{
+    max-height: 50px;
+    
+}
+
+.res_header{
+    display : none;
+}
+
+
+/*  responsive css   */
+
+@media only screen and (max-width: 768px) {
+    .header{
+        display : none;
+    }
+    .res_header{
+        
+        display : flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin : 0 2.5rem; */
+    padding: 0.1rem 2.5rem;
+    background-color: #212121;
+    color: white;
+    }
+
+    .res_count{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .res_count .count{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    .dropdown {
+        position: absolute;
+        
+        z-index: 2;
+        border: 1px solid rgba(0, 0, 0, 0.04);
+        box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+        margin-top: 1.1rem;
+        background-color: white;
+        right: 0;
+        background-color: #212121;
+        width: 100vw;
+      }
+      
+      .dropdown ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+      }
+      .dropdown li {
+        padding: 8px 12px;
+        text-decoration: none;
+        text-align: center;
+        
+        font-weight: 900;
+      }
+      
+      .dropdown li:hover {
+        background-color: rgba(0, 0, 0, 0.14);
+        cursor: pointer;
+      }
+      
+      .dropdown li a {
+        text-decoration: none;
+        color: #ffffff;
+
+      }
+
+    
+  }
+  

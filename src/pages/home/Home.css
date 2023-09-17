@@ -1,0 +1,95 @@
+.poster_main{
+    color : white;
+}
+
+.movie-img{
+    height : 500px;
+}
+.movie-img img{
+    height : 100%;
+    margin : auto;
+}
+
+.posterDetails{
+    position : absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.posterDetails:hover{
+    opacity: 1;
+}
+
+.movie-title{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+.movie-details{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.movie-ratings{
+    margin-left : 4rem;
+    
+}
+.movie-ratings i {
+    color : #FFD700;
+}
+.movie-ratings:hover{
+    background: none !important;
+}
+.movie-description {
+    text-align: left;
+    width: 50%;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+   
+}
+
+
+
+
+.carousel .control-dots .dot{
+    background: #FFD700 !important;
+}
+
+
+/* responsive css  */
+
+@media only screen and (max-width: 768px) {
+
+    .posterDetails{
+        padding: 2rem;
+    }
+    
+  }
+  
+
+  @media only screen and (max-width: 550px) {
+
+    .posterDetails .movie-description{
+
+        display : none;
+    }
+    .posterDetails .movie-title{
+        font-size: 2rem;
+    }
+    .posterDetails .movie-details{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+    
+  }
+  

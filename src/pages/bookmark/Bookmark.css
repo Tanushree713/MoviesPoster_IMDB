@@ -1,0 +1,29 @@
+.bookmark_items{
+    padding: 2rem;
+}
+
+.list_empty{
+    text-align : center;
+    padding: 1rem;
+    
+
+}
+.list_empty h1{
+    margin-bottom: 1rem;
+}
+
+.back_btn {
+
+    padding: .3rem 1rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 1rem;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.fav-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
