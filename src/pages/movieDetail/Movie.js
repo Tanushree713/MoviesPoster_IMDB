@@ -111,7 +111,7 @@ const Movie = () => {
             <a
               href={movieDetail.homepage}
               target="_blank"
-              rel = "noreferrer"
+              rel="noreferrer"
               style={{ textDecoration: "none" }}
             >
               <p>
@@ -125,7 +125,7 @@ const Movie = () => {
             <a
               href={"https://www.imdb.com/title/" + movieDetail.imdb_id}
               target="_blank"
-              rel = "noreferrer"
+              rel="noreferrer"
               style={{ textDecoration: "none" }}
             >
               <p>
