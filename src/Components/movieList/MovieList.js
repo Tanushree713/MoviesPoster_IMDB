@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import {useEffect,useState} from "react";
 import "./MovieList.css";
 import Card from "../card/Card.js";
 import { useParams } from "react-router-dom";

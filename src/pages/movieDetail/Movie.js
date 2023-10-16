@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  {useState,useEffect} from "react";
 import "./Movie.css";
 import { useParams } from "react-router-dom";
 
@@ -8,7 +8,6 @@ const Movie = () => {
 
   useEffect(() => {
     getData();
-    // window.scrollTo(0,0)
   }, []);
 
   const getData = () => {

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const Bookmark = ({ favourite, onDelete}) => {
-  const url = useLocation();
+  // const url = useLocation();
   // console.log(url.pathname);
   // console.log(favourite.length);
 
